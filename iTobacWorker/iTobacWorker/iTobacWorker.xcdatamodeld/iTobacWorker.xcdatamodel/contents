@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="UserData" representedClassName="UserData" syncable="YES">
+        <attribute name="cigaretteProgress" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="NSProgressData"/>
+        <attribute name="dates" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="[String]"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="moneyProgress" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="NSProgressData"/>
+    </entity>
+    <elements>
+        <element name="UserData" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>
