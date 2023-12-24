@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030228FC5B722A7517ED2A02 /* Pods_SportQuestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C613E9444753AB4E1EF378 /* Pods_SportQuestTests.framework */; };
+		178208B529103B5800EFA23C /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 178208B329103B5800EFA23C /* Resources */; };
+		178208B629103B5800EFA23C /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 178208B429103B5800EFA23C /* Sources */; };
+		178208BE29103B9A00EFA23C /* SportQuest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 178208B829103B9900EFA23C /* SportQuest.xcdatamodeld */; };
+		178208BF29103B9A00EFA23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178208BA29103B9900EFA23C /* Assets.xcassets */; };
+		178208C029103B9A00EFA23C /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 178208BB29103B9A00EFA23C /* Base.lproj */; };
+		178208C129103B9A00EFA23C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178208BC29103B9A00EFA23C /* AppDelegate.swift */; };
+		178208C229103B9B00EFA23C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178208BD29103B9A00EFA23C /* SceneDelegate.swift */; };
+		17C0F41327FE1F9B00E1355F /* app.gif in Resources */ = {isa = PBXBuildFile; fileRef = 17C0F41227FE1F9B00E1355F /* app.gif */; };
+		4E2AA3C969DAD3C52CDB174A /* Pods_SportQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41DC23DD5548AC348AA260A /* Pods_SportQuest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93418C18252528750004F813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93418BF6252528730004F813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93418BFD252528730004F813;
+			remoteInfo = SportQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178208B329103B5800EFA23C /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		178208B429103B5800EFA23C /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
+		178208B929103B9900EFA23C /* SportQuest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportQuest.xcdatamodel; sourceTree = "<group>"; };
+		178208BA29103B9900EFA23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178208BB29103B9A00EFA23C /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		178208BC29103B9A00EFA23C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		178208BD29103B9A00EFA23C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17C0F41227FE1F9B00E1355F /* app.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app.gif; sourceTree = "<group>"; };
+		55C613E9444753AB4E1EF378 /* Pods_SportQuestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportQuestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		693C1906673EB0C83DC57152 /* Pods-SportQuestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportQuestTests.release.xcconfig"; path = "Target Support Files/Pods-SportQuestTests/Pods-SportQuestTests.release.xcconfig"; sourceTree = "<group>"; };
+		93418BFE252528730004F813 /* SportQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93418C12252528750004F813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93418C17252528750004F813 /* SportQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9393AC0EAE3ED5FFA59926D1 /* Pods-SportQuestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportQuestTests.debug.xcconfig"; path = "Target Support Files/Pods-SportQuestTests/Pods-SportQuestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		977E0F2411667F0FFE7F72F6 /* Pods-SportQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportQuest.release.xcconfig"; path = "Target Support Files/Pods-SportQuest/Pods-SportQuest.release.xcconfig"; sourceTree = "<group>"; };
+		C41DC23DD5548AC348AA260A /* Pods_SportQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportQuest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A1631EE2F54F017D7CF9F6 /* Pods-SportQuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportQuest.debug.xcconfig"; path = "Target Support Files/Pods-SportQuest/Pods-SportQuest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93418BFB252528730004F813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2AA3C969DAD3C52CDB174A /* Pods_SportQuest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93418C14252528750004F813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030228FC5B722A7517ED2A02 /* Pods_SportQuestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C0F41127FE1F8700E1355F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				17C0F41227FE1F9B00E1355F /* app.gif */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		2257D9B6A23FF20968978D07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C41DC23DD5548AC348AA260A /* Pods_SportQuest.framework */,
+				55C613E9444753AB4E1EF378 /* Pods_SportQuestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93418BF5252528730004F813 = {
+			isa = PBXGroup;
+			children = (
+				178208B329103B5800EFA23C /* Resources */,
+				178208B429103B5800EFA23C /* Sources */,
+				17C0F41127FE1F8700E1355F /* Example */,
+				93418C00252528730004F813 /* SportQuest */,
+				93418BFF252528730004F813 /* Products */,
+				9C4D89ABD4456366C19C0BD6 /* Pods */,
+				2257D9B6A23FF20968978D07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93418BFF252528730004F813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93418BFE252528730004F813 /* SportQuest.app */,
+				93418C17252528750004F813 /* SportQuestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93418C00252528730004F813 /* SportQuest */ = {
+			isa = PBXGroup;
+			children = (
+				178208BC29103B9A00EFA23C /* AppDelegate.swift */,
+				178208BA29103B9900EFA23C /* Assets.xcassets */,
+				178208BB29103B9A00EFA23C /* Base.lproj */,
+				178208BD29103B9A00EFA23C /* SceneDelegate.swift */,
+				178208B829103B9900EFA23C /* SportQuest.xcdatamodeld */,
+				93418C12252528750004F813 /* Info.plist */,
+			);
+			path = SportQuest;
+			sourceTree = "<group>";
+		};
+		9C4D89ABD4456366C19C0BD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8A1631EE2F54F017D7CF9F6 /* Pods-SportQuest.debug.xcconfig */,
+				977E0F2411667F0FFE7F72F6 /* Pods-SportQuest.release.xcconfig */,
+				9393AC0EAE3ED5FFA59926D1 /* Pods-SportQuestTests.debug.xcconfig */,
+				693C1906673EB0C83DC57152 /* Pods-SportQuestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93418BFD252528730004F813 /* SportQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93418C20252528750004F813 /* Build configuration list for PBXNativeTarget "SportQuest" */;
+			buildPhases = (
+				F4FDFE48C414F9788A0B497D /* [CP] Check Pods Manifest.lock */,
+				93418BFA252528730004F813 /* Sources */,
+				93418BFB252528730004F813 /* Frameworks */,
+				93418BFC252528730004F813 /* Resources */,
+				0BF3F971E3FCB6E3683A68C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportQuest;
+			productName = SportQuest;
+			productReference = 93418BFE252528730004F813 /* SportQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93418C16252528750004F813 /* SportQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93418C23252528750004F813 /* Build configuration list for PBXNativeTarget "SportQuestTests" */;
+			buildPhases = (
+				5993C4E03F47534D792EAF49 /* [CP] Check Pods Manifest.lock */,
+				93418C13252528750004F813 /* Sources */,
+				93418C14252528750004F813 /* Frameworks */,
+				93418C15252528750004F813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93418C19252528750004F813 /* PBXTargetDependency */,
+			);
+			name = SportQuestTests;
+			productName = SportQuestTests;
+			productReference = 93418C17252528750004F813 /* SportQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93418BF6252528730004F813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Никита Бычков";
+				TargetAttributes = {
+					93418BFD252528730004F813 = {
+						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1400;
+					};
+					93418C16252528750004F813 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 93418BFD252528730004F813;
+					};
+				};
+			};
+			buildConfigurationList = 93418BF9252528730004F813 /* Build configuration list for PBXProject "SportQuest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93418BF5252528730004F813;
+			productRefGroup = 93418BFF252528730004F813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93418BFD252528730004F813 /* SportQuest */,
+				93418C16252528750004F813 /* SportQuestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93418BFC252528730004F813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178208B629103B5800EFA23C /* Sources in Resources */,
+				178208B529103B5800EFA23C /* Resources in Resources */,
+				178208C029103B9A00EFA23C /* Base.lproj in Resources */,
+				178208BF29103B9A00EFA23C /* Assets.xcassets in Resources */,
+				17C0F41327FE1F9B00E1355F /* app.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93418C15252528750004F813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF3F971E3FCB6E3683A68C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportQuest/Pods-SportQuest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportQuest/Pods-SportQuest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportQuest/Pods-SportQuest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5993C4E03F47534D792EAF49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportQuestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FDFE48C414F9788A0B497D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportQuest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93418BFA252528730004F813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178208C129103B9A00EFA23C /* AppDelegate.swift in Sources */,
+				178208BE29103B9A00EFA23C /* SportQuest.xcdatamodeld in Sources */,
+				178208C229103B9B00EFA23C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93418C13252528750004F813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93418C19252528750004F813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93418BFD252528730004F813 /* SportQuest */;
+			targetProxy = 93418C18252528750004F813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93418C1E252528750004F813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93418C1F252528750004F813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93418C21252528750004F813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A1631EE2F54F017D7CF9F6 /* Pods-SportQuest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--0.SportQuest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SportQuest/SportQuest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93418C22252528750004F813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977E0F2411667F0FFE7F72F6 /* Pods-SportQuest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--0.SportQuest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SportQuest/SportQuest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		93418C24252528750004F813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9393AC0EAE3ED5FFA59926D1 /* Pods-SportQuestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportQuestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--0.SportQuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportQuest.app/SportQuest";
+			};
+			name = Debug;
+		};
+		93418C25252528750004F813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693C1906673EB0C83DC57152 /* Pods-SportQuestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportQuestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--0.SportQuestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportQuest.app/SportQuest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93418BF9252528730004F813 /* Build configuration list for PBXProject "SportQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93418C1E252528750004F813 /* Debug */,
+				93418C1F252528750004F813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93418C20252528750004F813 /* Build configuration list for PBXNativeTarget "SportQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93418C21252528750004F813 /* Debug */,
+				93418C22252528750004F813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93418C23252528750004F813 /* Build configuration list for PBXNativeTarget "SportQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93418C24252528750004F813 /* Debug */,
+				93418C25252528750004F813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		178208B829103B9900EFA23C /* SportQuest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				178208B929103B9900EFA23C /* SportQuest.xcdatamodel */,
+			);
+			currentVersion = 178208B929103B9900EFA23C /* SportQuest.xcdatamodel */;
+			path = SportQuest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93418BF6252528730004F813 /* Project object */;
+}
